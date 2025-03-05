@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <input type="text" id="countryInput" placeholder="Rechercher" >
+        <div class="volume-container"> 
+            <input type="range" id="volume" name="volume" min="0" max="250" value="50">
+            <span id="volumes">50</span>
+        </div>    
+        <div>
+            <button id="sortAsc">Tri croissant</button>
+            <button id="sortDesc">Tri décroissant</button>
+            <button id="sortAlpha">Tri Alphabétique</button>
+        </div>
+    </div>
+    <div class="countries" id="countries">
+
+    </div>
+    <script src="script.js" ></script>
+</body>
+</html>
